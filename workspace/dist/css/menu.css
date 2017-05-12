@@ -1,0 +1,186 @@
+/* Media Queries */
+  /*Desktop*/
+    @media only screen and (min-width:896px){
+      .mbmenu{display: none;}
+
+      .menu{
+        width: 100%;
+        margin-bottom: 0.938rem;
+        background-color: #000;   
+      }
+
+      .logo{
+        width: 10%;
+        float: left;
+        margin-left: 1rem;
+      }
+
+      .logo_img{
+          width: 80%;
+          float: left;
+          margin-top: 0.313rem;
+      }
+
+      .menu_ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+
+      .menu_li {
+        float: right;
+      }
+
+      .menu_li a {
+        display: block;
+        color: #00bce4;
+        text-align: center;
+        padding: 15px 25px; 
+        text-decoration: none;
+        font-size: 1rem;
+      }
+
+      .menu_li a:hover {
+        color: #012842;
+        background-color: #00bce4;
+        
+      }
+
+
+      .hr_1{
+        width: 100%;
+        margin-top: -5px;
+      }
+
+      .hr_linha{
+        border: 1px solid #95989A;
+        width: 100%;
+      }
+    }
+
+  /*Tablet e Mobile*/
+    @media only screen and (min-width:000px) and (max-width: 895px){
+      .menu{
+        display: none;
+      }
+
+      header{
+        vertical-align: middle;
+        width:100%; 
+        background:#efefef; 
+        height:60px; 
+        line-height:60px;
+      }
+
+      .hamb_logo{
+        background-color: #000; 
+      }
+
+      .hamburger{
+        background:none;
+        position:absolute;
+        top:0;
+        right:0;
+        line-height:45px;
+        padding:5px 25px 0px 15px;
+        color:white;
+        border:0;
+        font-size:1.4em;
+        font-weight:bold;
+        cursor:pointer;
+        outline:none;
+        z-index:10000000000000;
+      }
+
+      .cross{
+        background:none;
+        position:absolute;
+        top:0px;
+        right:0;
+        padding:5px 25px 0px 15px;
+        color:white;
+        border:0;
+        font-size:3em;
+        line-height:65px;
+        font-weight:bold;
+        cursor:pointer;
+        outline:none;
+        z-index:10000000000000;
+      }
+
+      .menu_mb{
+        z-index:1000000; 
+        position:absolute;
+        right:0; 
+        font-size:1.1rem; 
+        width:100%; 
+        background:#efefef; 
+        text-align:center;
+      }
+
+      .menu_mb ul {
+        background-color: #000;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 0; 
+        padding: 0; 
+        list-style-type: none; 
+        list-style-image: none;
+      }
+
+      .menu_mb li {
+        display: block;   
+        padding:15px 0 15px 0; 
+      }
+
+      .menu_mb li:hover{
+        display: block; 
+        padding:15px 0 15px 0; 
+        color: #000F19;
+        background-color: #00bce4;
+                
+      }
+
+      .menu_mb ul li a { 
+        text-decoration:none;  
+        margin: 0px;
+      }
+
+      .menu_mb ul li a:hover {
+        text-decoration:none;
+      }
+
+      .menu_mb a{
+        text-decoration:none; 
+        color: #00bce4;
+      }
+
+      .menu_mb a:hover{
+        text-decoration:none;
+        color: #000F19;
+      }
+
+      .glyphicon-home{
+        color:white; 
+        font-size:1.5rem; 
+        margin-top:5px; 
+        margin:0 auto;
+      }   
+    }
+  
+  /*Tablet (logo epbtv)*/
+    @media only screen and (min-width:410px) and (max-width: 895px){
+      .logo_hamb{
+        width: 20%;
+        vertical-align: middle;
+      }
+    }
+
+  /*Mobile (logo epbtv)*/
+    @media only screen and (min-width:000px) and (max-width: 411px){
+      .logo_hamb {
+        width: 40%;
+        vertical-align: middle;
+      }
+    }

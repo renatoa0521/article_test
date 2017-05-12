@@ -1,0 +1,34 @@
+/* Media Queries */
+ 
+  /*Desktop*/
+	@media only screen and (min-width:790px){
+		.span_404{
+			font-size: 2.125rem;
+		}
+
+		.logo_404{ 
+			width: 30%;
+		}
+	}
+
+  /*Tablet*/
+	@media only screen and (min-width:411px) and (max-width: 789px){
+		.span_404{
+			font-size: 2.125rem;
+		}
+
+		.logo_404{ 
+			width: 50%;
+		}
+	}
+
+  /*Mobile*/
+	@media only screen and (min-width:0px) and (max-width: 410px){
+		.span_404{
+			font-size: 2.125rem;
+		}
+
+		.logo_404{ 
+		width: 75%;
+		}
+	}

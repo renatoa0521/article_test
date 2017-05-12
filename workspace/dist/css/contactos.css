@@ -1,0 +1,170 @@
+/* Media Queries */
+
+  /*Desktop*/	
+	@media only screen and (min-width:790px){
+		.input_form{
+			width: 50%;
+			font-size: 1rem;
+			text-align: center;
+			border: 1px solid #0099FF;
+			height: 2vw;
+			vertical-align: middle;
+			background-color: #efefef;
+		}
+
+		.label_form{
+			font-size:	1rem;
+		}
+
+		.obrigatorio{
+			font-size:	1rem; 
+			color: red;
+		}
+		.text_form{
+			width: 50%;
+			max-width: 50%;
+			font-size: 1rem;
+			text-align: center;
+			border: 1px solid #0099FF;
+			height: 15vw;
+			vertical-align: middle;
+			background-color: #efefef;
+		}
+
+		.submit_form{
+			width: 50%;
+			font-size: 1rem;
+			height: 2vw;
+			text-align: center;
+			vertical-align: middle;	
+			border: 1px solid #0099FF;
+			background-color: #FFF;
+			background-color: #efefef;
+		}
+
+		.erro_div{
+			width: 100%;
+			background-color: #FB3C3C;	
+			height: 3vw; 
+			font-size: 1rem;
+		}
+
+		.sucesso_div{
+			width: 100%;
+			background-color: #00FF3C;	
+			height: 3vw; 
+			font-size: 1rem;
+		}
+	}
+
+  /*Tablet*/	
+	@media only screen and (min-width:411px) and (max-width: 789px){
+		.input_form{
+			width: 100%;
+			font-size: 1rem;
+			text-align: center;
+			border: 1px solid #0099FF;
+			height: 5vw;
+			vertical-align: middle;
+			background-color: #efefef;
+		}
+
+		.obrigatorio{
+			font-size:	1rem; 
+			color: red;
+		}
+		.label_form{
+			font-size: 1rem;
+		}
+
+		.text_form{
+			width: 100%;
+			max-width: 100%;
+			font-size: 1rem;
+			text-align: center;
+			border: 1px solid #0099FF;
+			height: 15vw;
+			vertical-align: middle;
+			background-color: #efefef;
+		}
+
+		.submit_form{
+			width: 100%;
+			font-size: 1rem;
+			height: 5vw;
+			text-align: center;
+			vertical-align: middle;	
+			border: 1px solid #0099FF;
+			background-color: #efefef;
+		}
+
+		.erro_div{
+			width: 100%;
+			background-color: #FB3C3C;	
+			height: 7vw; 
+			font-size: 1rem;
+		}
+
+		.sucesso_div{
+			width: 100%;
+			background-color: #00FF3C;
+			height: 9vw; 
+			font-size: 1rem;
+		}
+	}
+
+  /*Mobile*/	
+	@media only screen and (min-width:0px) and (max-width: 410px){
+		.input_form{
+			width: 100%;
+			font-size: 1rem;
+			text-align: center;
+			border: 1px solid #0099FF;
+			height: 7vw;
+			vertical-align: middle;
+			background-color: #efefef;
+		}
+
+		.label_form{
+			font-size: 1rem;
+		}
+
+		.obrigatorio{
+			font-size:	1rem; 
+			color: red;
+		}
+		.text_form{
+			width: 100%;
+			max-width: 100%;
+			font-size: 1rem;
+			text-align: center;
+			border: 1px solid #0099FF;
+			height: 25vw;
+			vertical-align: middle;
+			background-color: #efefef;
+		}
+
+		.submit_form{
+			width: 100%;
+			font-size:1rem;
+			height: 9vw;
+			text-align: center;
+			vertical-align: middle;	
+			border: 1px solid #0099FF;
+			background-color: #efefef;
+		}
+
+		.erro_div{
+			width: 100%;
+			background-color: #FB3C3C;	
+			height: 15vw; 
+			font-size: 1rem;
+		}
+
+		.sucesso_div{
+			width: 100%;
+			background-color: #00FF3C;	
+			height: 23vw; 
+			font-size: 1rem;
+		}
+	}

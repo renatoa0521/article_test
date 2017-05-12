@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="lang_portuguese" type="extension" version="1.0">
+	<files>
+		<file location="/">extension.driver.php</file>
+		<file location="/">extension.meta.xml</file>
+		<file location="/">extension.package.xml</file>
+		<file location="/">README.md</file>
+		<file location="/">LICENSE</file>
+		<file location="/lang">lang.pt-br.php</file>
+		<file location="/lang">lang.pt.php</file>
+	</files>
+</package>
